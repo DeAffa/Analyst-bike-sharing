@@ -1,4 +1,0 @@
-panda
-matplotlib
-seaborn
-streamlit
