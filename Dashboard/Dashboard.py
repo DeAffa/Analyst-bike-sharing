@@ -111,7 +111,7 @@ min_date = pd.to_datetime(hari_df['dateday']).dt.date.min()
 max_date = pd.to_datetime(hari_df['dateday']).dt.date.max()
 
 with st.sidebar:
-    st.image('se.jpeg')
+    st.image('Dashboard/se.jpeg')
     start_date, end_date = st.date_input(
         label='Rentang Waktu',
         min_value= min_date,
