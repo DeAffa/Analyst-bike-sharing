@@ -5,7 +5,7 @@ import streamlit as st
 
 # Load dataset
 # Menyiapkan data day_df
-hari_df = pd.read_csv("Dashboard\hari_clean.csv")
+hari_df = pd.read_csv("main_data.csv")
 hari_df.head()
 
 st.set_page_config(page_title="Bike-sharing Dashboard",
